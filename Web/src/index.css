@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg-dark: #000000;       /* JetBlack puro para o fundo principal */
+  --bg-card: #0c0d10;       /* Um cinza quase preto, sutil, para os cards */
+  --border-muted: #1a1c21;   /* Fronteira muito sutil para definir as áreas */
+  --text-primary: #fcfcfd;
+  --text-secondary: #8c8f96; /* Cinza para informações menos importantes */
+  --accent: #f5f5f7;        /* Acento quase branco para foco */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  font-family: 'Inter', -apple-system, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+input, button {
+  font-family: inherit;
+  outline: none; /* Removemos o outline padrão para controlar o visual */
+}
