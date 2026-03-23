@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 function Header() {
   return (
     <header style={{ 
